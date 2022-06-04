@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>massive</title>
+	<style type="text/css">
+		body{
+			background-color: #83624B;
+			color: #1F0000 ;
+			font-size: 50px;
+			font-family: 'Viaoda Libre', cursive; 
+		}
+	</style>
+</head>
+<body>
+<script type="text/javascript">
+
+let numbr=prompt("How many compliments do you want",100)
+
+let compliments=["Gorgeous","smart","clever","adorable","happy","fine","marvelous","loyal"];
+let animals=["lion","tiger","giraf","cat","dog","panda","monkey","horse","dog","cat","dolphin","camel","duck","fish","snake","shark","parrot","hamster","elephant","hedgehot"]
+
+for(let i=1; i<=numbr;i++){
+
+let randCompliments=Math.floor(Math.random()*compliments.length);
+let randAnimals=Math.floor(Math.random()*animals.length);
+
+document.write(i+") You are so "+compliments[randCompliments]+" as "+animals[randAnimals]+"!"+"<br>")
+}
+</script>
+</body>
+</html>

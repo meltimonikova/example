@@ -1,0 +1,65 @@
+body{
+	background-color: darkred;
+}
+div{
+	width: 300px;
+	height: 300px;
+	border: solid 5px black;
+	margin: 50px;
+}
+.third, .fourth{
+	width: 700px;
+	height: 75px;
+}
+.first{
+	border: double 7px black;
+	background-image:url(https://thumbs.dreamstime.com/b/каменная-текстура-для-запаса-фото-фонового-изображения-100508767.jpg) ;
+	background-size: cover;
+}
+.second{
+	border: double 7px black;
+	background-color: bisque;
+}
+.third{
+	background-color: black;
+	border: dotted 7px bisque;
+
+}
+.fourth{
+	background-color: black;
+	border: dotted 7px bisque;
+}
+div{
+	border: solid 5px black;
+	margin: 100px;
+}
+.fiveth{
+	width: 400px;
+	height: 400px;
+	border: solid 7px grey;
+	background-color: white;
+}
+.sixth{
+    width: 300px;
+    height: 300px;
+    border: dotted 6px bisque;
+    margin: 50px;
+}
+.seventh{
+	width: 200px;
+    height: 200px;
+    border: solid 5px grey;
+    margin: 50px;
+}
+.eighth{
+   width: 400px;
+   height: 400px;
+   color: grey;
+   background-color: bisque;
+}
+.nineth{
+   width: 300px;
+   height: 300px;
+   border: double 6px;
+   margin: 50px;
+}
