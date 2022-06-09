@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Check_green_icon.svg/2048px-Check_green_icon.svg.png"/>
 	<style type="text/css">
 		header{
-			height: 350px;
+			height: 300px;
             background-image:url(https://www.mountainresearchinitiative.org/images/About_MRI/scotland-1000x340.jpg);
             background-repeat: no-repeat;
             background-position: top;
@@ -20,29 +20,38 @@
            		}
 		.menu{
 			width: 20%;
-			height: 1300px;
+			height: 1350px;
 			background-color: rgb(173, 100, 32, 0.9);
             float: left;
  		}
 		.content{
 			width: 80%;
-			height: 1300px;
+			height: 1350px;
 			background-color: rgb(116, 117, 108, 0.5 ) ;
 			float: left;
 		}
+
+    .footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    }
+
+    .social{
+      display: flex;
+    }
+    img{
+      width: 55px;
+    }
+
 		footer{
 			height: 150px;
 			background-color: rgb(173, 100, 32, 0.9);
 			clear: both;
-            border-top: 3px outset rgb(27,8,1);
-		}
-    footer #social img{
-      width: 40px;
-      height: 40px;
-      float: left;
-      margin-right: 20px;
+      border-top: 3px outset rgb(27,8,1);
 
-    }
+		}
+
         body{
           margin-bottom: 0px;
             margin-left: 0px;
@@ -71,12 +80,19 @@
             text-align: center;
             font-family: 'PT Sans', sans-serif;
             margin-left: 5px;
+            margin-right: 5px;
+           
+
         }
+        iframe{
+           margin-top: 30px;
+        }
+
         .floating-button {
   text-decoration: none;
   display: inline-block;
-  width: 140px;
-  height: 45px;
+  width: 200px;
+  height: 50px;
   line-height: 45px;
   border-radius: 45px;
   margin: 10px 20px;
@@ -86,15 +102,15 @@
   text-align: center;
   letter-spacing: 3px;
   font-weight: 600;
-  color: rgb(24, 27, 1) ;
+  color: rgb(24, 27, 1, 0.7) ;
   background: #EAF2F8 ;
-  box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
   transition: .3s;
 }
 .floating-button:hover {
-  background: rgb(57, 93, 15, 0.8);
-  box-shadow: 0 15px 20px rgba(36, 119, 25, 0.4);
-  color: white;
+  background: lightgrey;
+  box-shadow: 0 15px 20px grey;
+  color: rgb(112, 128, 144);
   transform: translateY(-7px);
 }
 			</style>
@@ -131,21 +147,24 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/n61ULEU7CO0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </h2></div>
 <footer> <h2>My contacts</h2>
-   <div id="social">
+
+    <div class="footer">
+   <div class="social">
+    
     <a href="https://www.instagram.com" title="Instagram" target="_blank">
-      <img src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Instagram-256.png " alt="Instagram" title="Instagram">
+      <img src="https://cdn4.iconfinder.com/data/icons/picons-social/57/38-instagram-2-256.png " alt="Instagram" title="Instagram">
     </a>
 
     <a href="https://www.facebook.com" title="Facebook" target="_blank">
-      <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-facebook-256.png " alt="Facebook" title="Facebook">
+      <img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-social-facebook-256.png" alt="Facebook" title="Facebook">
     </a>
      
      <a href="https://www.youtube.com" title="YouTube" target="_blank">
-      <img src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Youtube-256.png " alt="YouTube" title="YouTube">
+      <img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-social-youtube-256.png " alt="YouTube" title="YouTube">
     </a>
 
-   </div>
-  </footer>
-
+ </div>
+</div>
+</footer>
 </body>
 </html>
